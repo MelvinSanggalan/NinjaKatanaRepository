@@ -13,10 +13,10 @@ public class PlayerController : MonoBehaviour
     private float velocity = 0f;
     private float currentSpeed = 0f;
     private bool jumpedTwice = false;
-    private Vector3 motionStep;
+    public Vector3 motionStep;
 
     //Reference-type variable
-    private CharacterController controller;
+    public CharacterController controller;
 
 
 
