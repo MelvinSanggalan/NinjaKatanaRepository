@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288fab705c22aa2439480d4001b3f070, type: 3}
   m_Name: SwordDash
   m_EditorClassIdentifier: 
-  name: 
-  cooldownTime: 0
-  activeTime: 0
+  name: Sword Dash
+  cooldownTime: 5
+  activeTime: 0.5
+  dashSpeed: 20
+  dashTime: 0.25

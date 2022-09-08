@@ -14,6 +14,8 @@ public class SwordDashAbility : Ability
 
         float startTime = Time.time;
 
+        Debug.Log("Hello Everyone.");
+
     }
 
 }
