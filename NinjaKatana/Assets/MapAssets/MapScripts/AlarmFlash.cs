@@ -39,7 +39,7 @@ public class AlarmFlash : MonoBehaviour
         renderer.material.color = Color.white;
         timeDelay = 1f;
         yield return new WaitForSeconds(timeDelay);
-        light.intensity = 5;
+        light.intensity = 10;
         renderer.material.color = Color.red;
         timeDelay = 1f;
         yield return new WaitForSeconds(timeDelay);
